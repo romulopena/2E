@@ -1,0 +1,22 @@
+.cabecalho{
+    background-color: #12C8D3;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-cab{
+    font-size: 50px;
+}
+
+.lista-cab{
+    
+    
+}
+
+.itens-lista-cab{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 24px 0;
+    font-size: 20px
+}
