@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
 .cabecalho{
     background-color: #12C8D3;
     color: white;
@@ -6,7 +11,7 @@
 }
 
 .titulo-cab{
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .lista-cab{
@@ -18,5 +23,36 @@
     display: inline-block;
     margin: 0 20px;
     padding: 24px 0;
-    font-size: 20px
+    font-size: 30px;
+    
+}
+
+.turma{
+    background-image: linear-gradient(#17A8B0, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+
+}
+.turma-titulo{
+    color: white;
+    font-size: 30px;
+    padding: 25px 0;
+    
+}
+.turma-texto1{
+    color: white;
+    
+}
+.turma-texto2{
+    color: white;
+    
+}
+.imagem-turma{
+    width: 30%;
+}
+
+.turma-conteudo{
+    width: 50%;
 }
